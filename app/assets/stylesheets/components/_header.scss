@@ -1,0 +1,17 @@
+.navbar-header {
+    justify-content: space-between;
+    background: $blue;
+    min-height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+  
+@media (min-width: 576px) {
+    .navbar-header {
+        height: 64px;
+    }
+}

@@ -9,61 +9,46 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 2% 2%;
+}
+
+@media (min-width: 992px) {
+    .main-content {
+        margin: 3% 20%;
+    }
 }
    
-.steps-container {
+.container {
     margin: 0px auto 30px auto;
-    padding: 30px 24px 0px 24px;
+    padding: 12px;
     display: flex;
     flex-direction: column;
+    border: solid;
+    border-color: $linkedin-blue;
+    border-radius: 4px;
+    text-align: justify;
 }
   
 @media (min-width: 992px) {
-    .steps-container {
-        padding: 0 15px;
-        margin: 56px auto 56px auto;
-        flex-direction: row;
-        justify-content: center;
+    .container {
+        padding: 16px;
+        margin-top: 20px;
     }
 }
-  
-.steps-text {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: 30px 0px 30px 0px;
-    // color: $black;
-}
-  
-.steps-item h5 {
-    font-weight: 700;
-    font-size: 20px;
-}
-  
-.steps-item p {
-    font-weight: 500;
-    margin-bottom: 24px;
-}
-  
-@media (min-width: 400px) {
-    .steps-item {
-        padding: 0 25px;
-    }
-}
-  
    
-.fa-address-card {
-    color: $light-gray;
-    font-size: 40px;
+.container h3 {
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
-  
-.fa-map-marked-alt {
-    color: $light-gray;
-    font-size: 40px;
+
+.container p {
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
-  
-.fa-user-check {
-    color: $light-gray;
-    font-size: 40px;
+
+.container a {
+    margin-bottom: 20px;
+    color: $black;
+    text-decoration: none;
 }

@@ -1,5 +1,3 @@
-# README
-
 Portfolio:
 
 * Vagazap: https://vagazap.herokuapp.com/
